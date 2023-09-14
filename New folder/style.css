@@ -1,0 +1,63 @@
+/* CSS styles for layout and presentation */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    box-shadow:10px 10px 5px rosybrown;
+}
+img{
+    height:150px;
+    width:150px;
+}
+img:hover{
+    transform: scale(1.05);
+}
+h2 {
+font-size: 1.5rem;
+margin-top: 20px;
+font-family:'Times New Roman', Times, serif;
+text-align:center;
+   }
+.chocolate-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.chocolate-option {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+    border-radius: 5px;
+    text-align: center;
+}
+
+.chocolate-option label {
+    display: block;
+}
+
+.total-price {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+footer {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 10px 0;
+margin-top: 8%;
+}
+
+.footer-content {
+max-width: 800px;
+margin: 0 auto;
+}
+
+footer p {
+margin: 0;
+}

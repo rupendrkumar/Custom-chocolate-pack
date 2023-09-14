@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Chocolate Pack</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"  integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <h1>Chocolate Pack</h1>
+    <h2>Chocolate Quantity and Description</h2>
+    <p style="text-align: center;">
+        Who doesn’t enjoy a good chocolate bar?
+        Select your Chocolates and enjoy the delicious flavour of it.
+    </p>
+    <div class="chocolate-options">
+        <!-- List of available chocolates -->
+        <div class="chocolate-option">
+            <img src="https://th.bing.com/th/id/OIP.8oW5OpsB-wOvzDHS6Ia69AHaHu?w=163&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Dark-Chocolate">
+            <label>
+                <input type="checkbox" class="chocolate" data-price="2.00"> Dark Chocolate
+            </label>
+        </div>
+        <div class="chocolate-option">
+            <img src="https://th.bing.com/th/id/OIP.qBCf3OdxexCOllRAwQXcmQHaHa?w=182&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Milk-Chocolate">
+            <label>
+                <input type="checkbox" class="chocolate" data-price="1.50"> Milk Chocolate
+            </label>
+        </div>
+        <div class="chocolate-option">
+            <img src="" alt="">
+            <label>
+                <input type="checkbox" class="chocolate" data-price="2.50"> White Chocolate
+            </label>
+        </div>
+        <div class="chocolate-option">
+            <img src="https://th.bing.com/th/id/OIP.Ddqz25mIWZZEfT75rt1F5gHaHa?w=163&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Bittersweet Chocolate">
+            <label>
+                <input type="checkbox" class="chocolate" data-price="4.50"> Bittersweet Chocolate
+            </label>
+        </div>
+        <div class="chocolate-option">
+            <img src="https://th.bing.com/th/id/OIP.YjaymDSjpkYmkVdpXGE-4QHaE8?w=273&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Ruby chocolate">
+            <label>
+                <input type="checkbox" class="chocolate" data-price="4.50"> Ruby chocolate
+            </label>
+        </div>
+        <div class="chocolate-option">
+            <img src="https://th.bing.com/th/id/OIP.bH01h1Ug5OaVjZrj9WuYXwHaHa?w=203&h=203&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Chocolate liquor">
+            <label>
+                <input type="checkbox" class="chocolate" data-price="4.50"> Chocolate liquor
+            </label>
+        </div>
+        <div class="chocolate-option">
+            <img src="https://th.bing.com/th/id/OIP.eD75Yw5jYyHg91j8BfgLCAHaEy?w=253&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Cocoa Powder">
+            <label>
+                <input type="checkbox" class="chocolate" data-price="6.50"> Cocoa Powder
+            </label>
+        </div>
+        <div class="chocolate-option">
+            <img src="https://th.bing.com/th/id/OIP.UeWa1yWxBySsimajBqEfQwHaHa?w=208&h=208&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Caramel">
+            <label>
+                <input type="checkbox" class="chocolate" data-price="9.50"> Caramel
+            </label>
+        </div>
+        <div class="chocolate-option">
+            <img src="https://th.bing.com/th/id/OIP.Kwe8KHB6ICLotdcYMnpDWgHaHc?w=194&h=195&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Lavender chocolate">
+            <label>
+                <input type="checkbox" class="chocolate" data-price="4.50"> Lavender chocolate
+            </label>
+        </div>
+        
+        
+    </div>
+
+    <div class="total-price">
+        Total Price: $<span id="total">0.00</span>
+        <div>
+        <button  type="button" class="btn btn-primary ">Add To Cart </button>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023-Sudhanshu. All rights reserved.</p>
+        </div>
+    </footer>
+
+   
+    <script src="index.js"></script>
+</body>
+</html>
